@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.vrt.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "C:\\Users\\m.a.glavatskikh\\Desktop\\git\\FIRE\\VRT\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "action_manifest_path": "D:\\unityHub\\ProjectOfUnity\\VRT\\Assets\\StreamingAssets\\SteamVR\\actions.json",
       "strings": {
         "en_us": {
           "name": "VRT [Testing]"

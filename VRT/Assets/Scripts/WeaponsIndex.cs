@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class WeaponsIndex : MonoBehaviour
 {
-    public GameObject GIndex;
+    public GameObject weaponsTag;//индекс главной детали
+    public Transform transformsPoint;//кординатная точка детали при скриплении 
     
 }

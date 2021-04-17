@@ -18,7 +18,6 @@ public partial class FireActions : MonoBehaviour
 
     public Interactable interactable;
     
-   
     void Start()
     {
         mainModel = GetComponent<MainModel>();
@@ -40,22 +39,17 @@ public partial class FireActions : MonoBehaviour
         {
             bulletCountOnMainbody = 0;
         }
-       
-        
-            if(interactable.attachedToHand != null) {
-            SteamVR_Input_Sources source = interactable.attachedToHand.handType;
-                if((fireAct[source].stateDown && mainModel.WholeModel) == true && bulletCountOnMainbody > 0 && mainModel.interactable.attachedToHand != null)
+        if(interactable.attachedToHand != null) { 
+            if((fireAct.stateDown && mainModel.WholeModel) == true && bulletCountOnMainbody > 0 && mainModel.interactable.attachedToHand != null)
+            {
+                Fire();
+                if(Hit.collider != null && Hit.collider.tag == "Target")
                 {
-                    Fire();
-                    if(Hit.collider != null && Hit.collider.tag == "Target")
-                    {
                     mR = Hit.collider.gameObject.GetComponent<MeshRenderer>();
                     a();
-                    }
                 }
             }
-        
-        
+        }
         Debug.DrawRay(FirePoint.position, FirePoint.right * -100f);
     }
     public void Fire()
