@@ -4,20 +4,29 @@ using UnityEngine;
 using System;
 public class UnBonding : MonoBehaviour
 {
-    Bonding1 bonding1;
-   
-    private void Start()
-    {
-        bonding1 = GetComponent<Bonding1>();
-    }
+    RaycastHit hit;
+
+    public string ba;
+ 
     void Update()
     {
-       if(bonding1.interactable.attachedToHand != null && bonding1.weaponsIndex != null)
-       {
-            bonding1.weaponsIndex.weaponsTag.GetComponent<MainModel>().scoreOfbondig[bonding1.indexOfPiece - 1] = false;
-            bonding1.isbonding = false;
-       }
-      
+        Debug.DrawRay(transform.position, Vector3.right * 2f);
+        
+        
+        Physics.Raycast(transform.position,Vector3.right * 2f,out hit);
+        if (hit.collider != null && hit.collider.isTrigger == true)
+        {
+            try
+            {
+                ba = hit.collider.gameObject.GetComponent<BoxCollider>().isTrigger.ToString();
+                hit.collider.gameObject.GetComponent<BoxCollider>().isTrigger = false;
+            }
+            catch(Exception ex)
+            {
+                Debug.Log(ex);
+            }
+        }
+        
+            
     }
-
 }

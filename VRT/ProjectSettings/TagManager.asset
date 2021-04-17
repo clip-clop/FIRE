@@ -3,10 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - M9
-  - Target
-  - Bond
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -16,10 +13,10 @@ TagManager:
   - UI
   - 
   - 
-  - gun
-  - GraphicsLayer
-  - Main
-  - Childe
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
