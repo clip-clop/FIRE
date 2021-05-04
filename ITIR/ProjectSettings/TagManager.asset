@@ -7,6 +7,7 @@ TagManager:
   - projectile
   - FxTemporaire
   - M9
+  - Target
   layers:
   - Default
   - TransparentFX
@@ -22,8 +23,8 @@ TagManager:
   - A1
   - B
   - B1
-  - 
-  - 
+  - graph
+  - Target
   - 
   - 
   - 
