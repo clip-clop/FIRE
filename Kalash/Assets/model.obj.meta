@@ -1,0 +1,251 @@
+fileFormatVersion: 2
+guid: 9350fddef36c1f041a4de36c3bdde182
+ModelImporter:
+  serializedVersion: 19300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BarrelStart_lowMat
+    second: {fileID: 2100000, guid: ad3e411f8dd5b334c9eaa8552002effc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BarrelSupport_lowMat
+    second: {fileID: 2100000, guid: 399a7eed66d0a144bb3f286ed74a6f92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BarrelTopStart_lowMat
+    second: {fileID: 2100000, guid: 86d10a6751de334479f4636cbd874503, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrel_lowMat
+    second: {fileID: 2100000, guid: 05c52e0c87ab663449117a1c3269c4f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box_lowMat
+    second: {fileID: 2100000, guid: b579002fc2d91e6469d3577aad2bef23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ButtCover_lowMat
+    second: {fileID: 2100000, guid: 077482d59a19bb540b33c8c0926fe21d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Butt_lowMat
+    second: {fileID: 2100000, guid: 3f6fd45030143b042aac14baf3667a46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HandleMetal_lowMat
+    second: {fileID: 2100000, guid: 76b80010d6fde6e4ba73a57dcb3f0845, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handle_lowMat
+    second: {fileID: 2100000, guid: c94dcd957ffdbab499ee75f643281b36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IronSights_lowMat
+    second: {fileID: 2100000, guid: bec3e042ede8ede4b88398a0eeef5170, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MagazineRelease_lowMat
+    second: {fileID: 2100000, guid: f87d20f9c27797e46bcd245195f0fee9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Magazine_lowMat
+    second: {fileID: 2100000, guid: fdc295c8cb387ab43b69a9745e5fb44e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MidSightHolder_lowMat
+    second: {fileID: 2100000, guid: 662884d722641d64aa1966c052e17cde, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MidSightPipe_lowMat
+    second: {fileID: 2100000, guid: f32e5f401cb9a0847b72b2d1fa36d17d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MidSightRound_lowMat
+    second: {fileID: 2100000, guid: 373343403cdb0d0488be7417b8ac7236, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MidSight_lowMat
+    second: {fileID: 2100000, guid: 16f753351e3f3c045aca75248fc54b07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PipeBig_lowMat
+    second: {fileID: 2100000, guid: d8252d78f34974d48b10cff857d26493, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pipe_lowMat
+    second: {fileID: 2100000, guid: deac0819291d4cb48803c23d5a354d4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SelectFireTabs_lowMat
+    second: {fileID: 2100000, guid: b051b8b93fe487e4dbd5e60307b397dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SelectFire_lowMat
+    second: {fileID: 2100000, guid: e980d9f4e1a2a2f4db1255f25d8b1bd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SightPinHolder_lowMat
+    second: {fileID: 2100000, guid: 1b1c744dc16072649876b665f3d14aa7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SightPin_lowMat
+    second: {fileID: 2100000, guid: ffcbab74810a54f41a0b5586f4a4b155, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Slide_lowMat
+    second: {fileID: 2100000, guid: 7ebadcf1f35214c44b86d849f772dd9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StockMetalBottom_lowMat
+    second: {fileID: 2100000, guid: 8b5341dd27e8a9740879f262d6178ba6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StockMetalTop_lowMat
+    second: {fileID: 2100000, guid: dbf158fc99a263f42aea527ce8f27ac6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StockWoodBottom_lowMat
+    second: {fileID: 2100000, guid: b0a684c694e570f4c969101d6a35cf38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StockWoodTop_lowMat
+    second: {fileID: 2100000, guid: fd896e4795420d04dabbdb8dc7921b99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TopRelease_lowMat
+    second: {fileID: 2100000, guid: 1fd57a49577141943a164ba2a0508103, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Top_lowMat
+    second: {fileID: 2100000, guid: 96036f6fde81ddf4b89042a5e2f52247, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TriggerProtector_lowMat
+    second: {fileID: 2100000, guid: 244e65934726a7a41bb7c8b025700714, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trigger_lowMat
+    second: {fileID: 2100000, guid: 2f128b9db5edb0c4a8ee6240772bdac8, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 2
+    materialSearch: 2
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 0
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
